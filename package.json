@@ -1,0 +1,26 @@
+{
+  "name": "generator-mina",
+  "version": "0.1.1",
+  "description": "A generator for mina with webpack, ES6 support",
+  "main": "index.js",
+  "file": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "mina"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notonlysuccess/generator-mina.git"
+  },
+  "author": "notonlysuccess(notonlysuccess@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notonlysuccess/generator-mina/issues"
+  },
+  "homepage": "https://github.com/notonlysuccess/generator-mina",
+  "dependencies": {
+    "yeoman-generator": "^0.24.1"
+  }
+}
