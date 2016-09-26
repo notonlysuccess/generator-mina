@@ -1,6 +1,8 @@
 # Generator-mina [![npm package](https://img.shields.io/npm/v/vue-cli.svg)](https://www.npmjs.com/package/generator-mina)
 
-A simple generator for MINA with webpack, ES6 support
+***It's only personal project, not official way to build weapp. Please use with caution.***
+
+A simple generator for MINA with webpack, ES6 support.
 
 ### Installation
 
@@ -31,7 +33,7 @@ $ yo mina
 $ npm i
 ```
 
-- Run scripts
+- Run scripts.
   `build` for building, `dev` for watching
 ``` bash
 $ npm run build
@@ -39,7 +41,7 @@ $ npm run build
 ``` bash
 $ npm run dev
 ```
-- Use [微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html?t=1474644089359) to open `hello-mina/dist`
+- Use [微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html?t=1474644089359) to open `hello-mina/dist`.
 
 
 ### License
