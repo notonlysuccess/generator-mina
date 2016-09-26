@@ -43,6 +43,9 @@ $ npm run dev
 ```
 - Use [微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html?t=1474644089359) to open `hello-mina/dist`.
 
+### Caution
+
+Weapp is running on JsCore, so not all package can be used. ***It's not official way, please use with caution.***
 
 ### License
 
