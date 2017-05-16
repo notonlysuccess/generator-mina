@@ -2,7 +2,7 @@
 
 ***It's only personal project, not official way to build weapp. Please use with caution.***
 
-A simple generator for MINA with webpack, ES6 support.
+A simple generator for MINA with gulp, async/await support.
 
 ### Installation
 
@@ -43,6 +43,13 @@ $ npm run dev
 ```
 - Use [微信web开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html?t=1474644089359) to open `hello-mina/dist`.
 
+- await/async usage
+
+You need require `assets/runtime.js` first when you want to use async. see the example in `src/utils/login.js`
+
+```js
+const regeneratorRuntime = require('asstes/runtime.js')
+```
 ### Caution
 
 Weapp is running on JsCore, so not all package can be used. ***It's not official way, please use with caution.***
