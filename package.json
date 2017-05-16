@@ -1,6 +1,6 @@
 {
   "name": "generator-mina",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A generator for mina with gulp, async/await support",
   "main": "index.js",
   "file": [
