@@ -5,9 +5,9 @@ module.exports = generators.Base.extend({
     generators.Base.apply(this, arguments)
   },
   copyTemplates: function() {
-    this.directory('build', 'build')
     this.directory('src', 'src')
     this.copy('package.json', 'package.json')
     this.copy('.babelrc', '.babelrc')
+    this.copy('gulpfile.js', 'gulpfile.js')
   }
 })

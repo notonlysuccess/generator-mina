@@ -10,22 +10,11 @@
     "weapp"
   ],
   "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.24.1",
-    "copy-webpack-plugin": "^3.0.1",
     "del": "^2.2.2",
-    "extract-text-webpack-plugin": "latest",
-    "file-loader": "latest",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
-    "gulp-include": "^2.3.1",
-    "gulp-insert": "^0.5.0",
     "path": "^0.12.7",
-    "readable-stream": "^2.2.9",
-    "run-sequence": "^1.2.2",
-    "streamqueue": "^1.1.1",
-    "webpack": "^1.12.13"
+    "run-sequence": "^1.2.2"
   }
 }

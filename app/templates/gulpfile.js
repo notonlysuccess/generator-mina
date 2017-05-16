@@ -2,8 +2,6 @@ const gulp = require('gulp')
 const del = require('del')
 const runSequence = require('run-sequence')
 const babel = require('gulp-babel')
-const insert = require('gulp-insert')
-const path = require('path')
 
 gulp.task('clean', () => {
   return del(['./dist/**'])
