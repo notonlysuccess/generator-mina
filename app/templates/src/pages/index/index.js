@@ -1,19 +1,15 @@
-var app = getApp()
+const regeneratorRuntime = require('../../assets/runtime.js')
+const hh = require('../../utils/hh')
+
 Page({
   data: {
     motto: 'Hello World',
     userInfo: {}
   },
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
-  },
-  onLoad: function() {
-    app.getUserInfo(userInfo => {
-      this.setData({
-        userInfo:userInfo
-      })
+  bindButtonTap: async function() {
+    const res = await hh.getUserInfo()
+    this.setData({
+      userInfo: res.userInfo
     })
   }
 })
